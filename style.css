@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  background-color: #031d44;
+}
+
+#table-body .edit-btn {
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+#table-body .delete-btn {
+  background-color: orangered;
+  color: #fff;
+  cursor: pointer;
+}
+
+#update-btn {
+  display: none;
+}
+
+#update-btn:focus,
+#submit-btn:focus,
+#input:focus {
+  box-shadow: none;
+}
+
+.edit-btn,
+.delete-btn {
+  width: 70px;
+}
+
+.td-index {
+  width: 40px;
+}
